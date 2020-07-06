@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Welcome to Auto Sales Corp</title>
+</head>
+
+<body background = "Pic3.jpg">
+<font color="gray">
+
+<h2>Enter Contact information and vehicle details</h2>
+<form action= "NewSale_page.php" method="post" onsubmit="">
+
+
+<table style="border:1px solid black;width: 40%;">
+
+<tr>
+<td>Seller Name:</td><td><input  type="text" name="sellerName" required></td>
+</tr>
+ <tr>
+  <td>Address Line1:</td><td><input  type="text" name="addressLine1" required></td>
+  </tr>
+  <tr>
+  <td>Address Line2:</td><td><input  type="text" name="addressLine2" ></td>
+  </tr>
+  <tr>
+  <td>City:</td><td><input  type="text" name="city" required></td>
+  </tr>
+  <tr>
+  <td>State:</td><td><input  type="text" name="state" required></td>
+  </tr>
+  <tr>
+  <td>Zipcode:</td><td><input  type="text" name="zipcode" required></td>
+  </tr>
+  <tr>
+  <td>Phone Number:</td><td><input  type="tel" name="phoneNumber" pattern="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}" required></td> 
+  </tr>
+  <tr>
+  <td><span >(Format: 123-123-1234)</span> </td>
+  </tr>
+  <tr>
+  <td><span >OR (123)-123-1234</span> </td>
+  </tr>
+  
+  <tr>
+  <td>Email Address:</td><td><input  type="email" name="emailAddress" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" required></td>
+  </tr>
+  <tr>
+  <td><span><span>(Format: abc@abc.com) </span></span> </td>
+  </tr>
+ <tr>
+<td>Body Type:</td><td><input  type="text" name="bodyType" required></td>
+</tr>
+ <tr>
+<td>Year:</td><td><input  type="text" name="year" required></td>
+</tr>
+<tr>
+  <td>Vehicle Make:</td><td><input  type="text" name="vehicleMake" required></td>
+  </tr>
+ <tr>
+<td>Vehicle Model:</td><td><input  type="text" name="vehicleModel" required></td>
+</tr>
+  <tr>
+  <td>Exterior Color:</td><td><input  type="text" name="exteriorColor" required></td>
+  </tr>
+<tr>
+  <td>Kilometers:</td><td><input  type="text" name="kilometers" required></td>
+  </tr>
+</table><br>
+<input type="submit" value="Submit">
+
+                                        
+</form>
+
+</body>
+</html>
+
+
